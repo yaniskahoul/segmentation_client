@@ -1,0 +1,31 @@
+colonne,description
+customer_id,id du client
+customer_unique_id,id UNIQUE du client
+customer_zip_code_prefix,zipcode du client
+customer_city,Ville du client
+customer_state,Etat du client
+order_id,identifiant unique pour chaque commande
+order_status,"état de la commande (livré, en transit)"
+order_purchase_timestamp,enregistrement de la date et de l'heure à laquelle une commande a été effectuée
+payment_sequential,enregistrement de la date et de l'heure à laquelle une commande a été effectuée
+payment_type,"type de paiement (carte de crédit, espèces)"
+payment_installments,nombre de versements choisi par le client.
+payment_value,valeur du paiement
+order_approved_at,heure d'approbation de la commande
+order_delivered_carrier_date,date de livraison du transporteur
+order_delivered_customer_date,Affiche la date réelle de livraison de la commande au client.
+order_estimated_delivery_date,Affiche la date de livraison estimée qui a été communiquée au client au moment de l'achat.
+review_score,score d'évaluation donné par le client
+order_item_id,identifiant unique pour chaque article de la commande
+product_id,identifiant unique pour chaque produit
+seller_id,identifiant unique pour chaque vendeur
+shipping_limit_date,date limite d'expédition du produit
+price,prix de l'article
+freight_value,"article valeur de fret article (si une commande comporte plus d'un article, la valeur de fret est répartie entre les articles)"
+seller_zip_code_prefix,code postal du vendeur
+seller_city,ville du vendeur
+seller_state,état du vendeur
+product_name_lenght,longueur du nom du produit
+product_description_lenght,longueur de la description du produit
+product_photos_qty,nombre de photos du produit
+product_category_name_english,nom de catégorie du produit en anglais
